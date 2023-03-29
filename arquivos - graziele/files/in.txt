@@ -1,0 +1,11 @@
+001;123456;Fulano
+001;789234;Beltrano 
+001;7892355;Ciclano
+002;DSII;Guilherme 
+002;Banco de Dados;Ricardo
+001;7896655;João
+002;DSI;Felipe
+001;2396655;Carlos
+002;Banco de Dados II;Rogerio
+002;DSII;Guilherme
+001;7892355;Ciclano
