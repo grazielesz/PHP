@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Carrinho de Compras</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <img src="img/logo2.jpg" alt="Logo WebStore">
+            </div>
+            <div><i class="bi bi-cart"></i></div>
+            <div class="titulo">
+                
+                <h3>Carrinho de Compras</h3>
+            </div>
+        </header>
+        <section>
+            <article>
+                <div id="some01" class="produto">
+                    <div>
+                        <img class="miniatura" src="img/sommerville_es.jpeg" alt="Imagem do Produto">
+                    </div>
+                    <div class="nome">
+                        <p>Engenharia de Software</p>
+                        <p class="autor">Ian Sommerville</p>
+                        <input type="checkbox" name="" id="check01">
+                        <span>Para presente?</span>
+                    </div>
+                    <div class="preco">
+                        <p>R$ <span class="valor">194,24</span></p>
+                    </div>
+                    <div class="qtd">
+                        <input id="prod01" type="number" name="quantidade" id="qutd" min="0" max="5" size="2" value="0">
+                        <button id="lixeira01" class="fa-solid fa-trash"></button>
+                    </div>
+                </div>
+            </article>
+            <article>
+                <div id="some02" class="produto">
+                    <div>
+                        <img class="miniatura" src="img/norvig_ia.jpeg" alt="Imagem do Produto">
+                    </div>
+                    <div class="nome">
+                        <p>Inteligência Artificial</p>
+                        <p class="autor">Stuart Russel, Peter Norvig</p>
+                        <input type="checkbox" name="" id="check02">
+                        <span>Para presente?</span>
+                    </div>
+                    <div class="preco">
+                        <p>R$ <span class="valor">194,24</span></p>
+                    </div>
+                    <div class="qtd">
+                        <input id="prod02" type="number" name="quantidade" id="qutd" min="0" max="5" size="2" value="0">
+                        <button id="lixeira02" class="fa-solid fa-trash"></button>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <div id="total">
+            <p>Total R$ <span id="valor-total">0.00</span></p>
+        </div>
+            
+        
+    </div>
+
+    <script src="js/master.js"></script>
+</body>
+
+</html>
